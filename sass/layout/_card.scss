@@ -1,0 +1,45 @@
+.collection {
+    background-image: url(https://picsum.photos/500/500);
+    /* image from https://picsum.photos/, random photos are genereted each time */
+    padding-top: $portrait-aspect-ratio;
+    /* portrait aspect ratio */
+    @include background;
+  }
+
+.experience {
+
+    .best {
+    background-image: url(https://picsum.photos/400/400);
+    @include background;
+        }
+
+    .weekend {
+    background-image: url(https://picsum.photos/401/401);
+    @include background;
+        }
+
+    .groups {
+    background-image: url(https://picsum.photos/488/488);
+    @include background;
+    }
+
+}
+
+.starting {
+    .img-card-wrapper {
+    max-width: 12rem;
+    flex-grow: 1;
+
+        .img-card {
+            background-image: url(https://picsum.photos/499/499);
+            padding-top: $long-portrait-aspect-ratio;
+            background-size: cover;
+            background-position: center;
+        }
+ }
+
+ .text-box {
+     font-size: 0.9rem;
+ }
+}
+

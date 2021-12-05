@@ -11980,22 +11980,6 @@ fieldset:disabled .btn {
           box-sizing: border-box;
 }
 
-.collection {
-  background-image: url(https://picsum.photos/500/500);
-  /* image from https://picsum.photos/, random photos are genereted each time */
-  padding-top: calc(4.5 / 4 * 100%);
-  /* portrait aspect ratio */
-  background-size: cover;
-  background-position: center;
-}
-
-.experience .img-card {
-  background-image: url(https://picsum.photos/400/400);
-  padding-top: calc(4.5 / 4 * 100%);
-  background-size: cover;
-  background-position: center;
-}
-
 html {
   font-size: 62.5%;
 }
@@ -12032,5 +12016,54 @@ h3, .h3 {
   .experience {
     width: 20%;
   }
+}
+
+.collection {
+  background-image: url(https://picsum.photos/500/500);
+  /* image from https://picsum.photos/, random photos are genereted each time */
+  padding-top: calc(4.5 / 4 * 100%);
+  /* portrait aspect ratio */
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.experience .best {
+  background-image: url(https://picsum.photos/400/400);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.experience .weekend {
+  background-image: url(https://picsum.photos/401/401);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.experience .groups {
+  background-image: url(https://picsum.photos/488/488);
+  background-size: cover;
+  background-position: center;
+  padding-top: calc(4.5 / 4 * 100%);
+}
+
+.starting .img-card-wrapper {
+  max-width: 12rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.starting .img-card-wrapper .img-card {
+  background-image: url(https://picsum.photos/499/499);
+  padding-top: calc(5 /4 *100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.starting .text-box {
+  font-size: 0.9rem;
 }
 /*# sourceMappingURL=main.css.map */
