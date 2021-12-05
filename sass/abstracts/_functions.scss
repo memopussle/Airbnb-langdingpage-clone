@@ -1,0 +1,19 @@
+
+.inner {
+    //overlay the inner <div> exactly on top of its parent 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    h4 {
+        max-width: 200px;
+    }
+  }
+  
+.experience-filter {
+    .nav-item {
+        flex-shrink: 0;
+
+    }
+}

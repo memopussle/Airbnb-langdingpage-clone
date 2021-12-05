@@ -1,0 +1,15 @@
+.collection {
+    background-image: url(https://picsum.photos/500/500);
+    /* image from https://picsum.photos/, random photos are genereted each time */
+    padding-top: $portrait-aspect-ratio;
+    /* portrait aspect ratio */
+    @include background;
+  }
+
+  .experience {
+      .img-card {
+        background-image: url(https://picsum.photos/400/400);
+        padding-top: $portrait-aspect-ratio;
+        @include background;
+      }
+  }
